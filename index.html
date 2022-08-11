@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
-    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Play&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -16,24 +15,25 @@
 <body>
 
     <!-- Navigation Bar -->
-    <div class="container">
-        <div class="logo">
-            <img src="assets/logo__1.png" alt="" width="130"/>
+    <sectio class="navbar d-flex navbar-fixed-top">
+        <div class="container">
+            <div class="logo">
+                <img src="assets/logo__1.png" alt="" width="130"/>
+            </div>
+            <nav class="nav_bar">
+                <input type="checkbox" id="checkbox_id"/>
+                <label for="checkbox_id" class="hamburger">&#9776</label>
+                <ul class="menu_bar">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#blog">Blogs</a></li>
+                    <li><a href="#add">Add</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav> 
         </div>
-        <nav class="nav_bar">
-            <input type="checkbox" id="checkbox_id"/>
-            <label for="checkbox_id" class="hamburger">&#9776</label>
-            <ul class="menu_bar">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#blog">Blogs</a></li>
-                <li><a href="#add">Add</a></li>
-                <li><a href="#contact">Contact</a></li>
-                
-            </ul>
-        
-           
-        </nav> 
-    </div>
+
+    </section>
+    
 
     <!-- Home -->
     <div id="home">
