@@ -18,6 +18,8 @@ li{
   list-style: none;
 }
 
+/* -------Header Start--------- */
+
 .container{
   display: flex;
   align-items: center;
@@ -26,6 +28,8 @@ li{
   background-color: #0086b3;
   color: #fff;
 }
+
+
 
 .nav_bar a{
   color: #fff;
@@ -90,23 +94,9 @@ input[type=checkbox]{
   }
 }
 
+/* ---------Header End------- */
 
-/* .icons a {
-  padding: 10px 0;
-  display: inline-block;
-  float: right;
-}
-.icons a  {
-  font-size: 20px;
-  padding: 20px;
-  padding-top: 0px;
-  border-right: 1px solid;
-}
-
-.icons  a:hover {
-  color:orange;
-} */
-
+/* -------Footer Start-------- */
 
 .footer{
 background:#0086b3;
@@ -166,3 +156,6 @@ margin:0% 3%;
 text-align: center;
 }
 }
+
+
+/* ------Footer End------- */
