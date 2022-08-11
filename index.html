@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Play&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -30,16 +30,55 @@
             <label for="checkbox_id" class="hamburger">&#9776</label>
             <ul class="menu_bar">
                 <a href=""></a>
-                <li><a href="">Home</a></li>
-                <li><a href="">Blogs</a></li>
-                <li><a href="">Add</a></li>
-                <li><a href="">Contact</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#blog">Blogs</a></li>
+                <li><a href="#add">Add</a></li>
+                <li><a href="#contact">Contact</a></li>
+                
             </ul>
         
            
         </nav> 
     </div>
-    
+
+    <!-- Home -->
+    <div id="home">
+        <div class="image-container">
+            <div align="center;" class="image">
+                <img src="assets/blog_1.png" alt="" width="390px" height="390px" />
+            </div>
+            <div align="center;" class="image">
+                <img src="assets/blog_3.jpg" alt="" width="390px" height="390px" />
+            </div>
+            <div align="center;" class="image">
+                <img src="assets/blog_2.jpg" alt="" width="390px" height="390px" />
+            </div>
+        </div>
+    </div>
+
+    <hr>
+    <!-- Blog -->
+    <div id="blog"></div>
+
+    <!-- Add Blog -->
+    <div id="add">
+        <h1>Add Blog: </h1>
+        <form>
+            <label for="title" style="font-size: 20px;">Title:</label>
+            <input type="text" id="title" name="title" placeholder="Your title...">
+            <label for="body" style="font-size: 20px;">Body:</label>
+            <textarea name="body" id="body" cols="30" rows="10" placeholder="Write Body..." style="height: 200px;"></textarea>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+    <br>
+    <hr>
+
+    <!-- Contact Us -->
+    <div id="contact">
+        
+    </div>
+
     <!-- Footer -->
     <footer>
         <div class="footer">
